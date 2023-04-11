@@ -1,0 +1,69 @@
+
+#
+#Power generators
+[generation]
+	#
+	#Power generation from rtgs.
+	#Range: > 0
+	"Uranium Rtg" = 4
+	#Range: > 0
+	"Plutonium Rtg" = 100
+	#Range: > 0
+	"Americium Rtg" = 50
+	#Range: > 0
+	"Californium Rtg" = 400
+
+#
+#Passive item/fluid generators
+[passives]
+	#
+	#How frequently cobblestone generators produce cobblestone. Smaller is faster.
+	#Range: > 1
+	"Cobblestone Tick Delay" = 20
+	#
+	#How much cobblestone each generator produces per operation.
+	#Range: 0 ~ 64
+	"Cobbblestone Generator" = 1
+	#Range: 1 ~ 64
+	"Compact Cobblestone Generator" = 8
+	#Range: 1 ~ 64
+	"Dense Cobblestone Generator" = 64
+	#
+	#How frequently infinite water sources produce water. Smaller is faster.
+	#Range: > 1
+	"Water Tick Delay" = 20
+	#
+	#How much water each source produces per operation.
+	#Range: > 1
+	"Water Source" = 10
+	#Range: > 1
+	"Compact Water Source" = 80
+	#Range: > 1
+	"Dense Water Source" = 640
+
+#
+#Various storage options
+[storage]
+	#
+	#Power storage for batteries
+	#Range: > 1
+	"Basic Voltaic Pile" = 160000
+	#Range: > 1
+	"Advanced Voltaic Pile" = 640000
+	#Range: > 1
+	"DU Voltaic Pile" = 2560000
+	#Range: > 1
+	"Elite Voltaic Pile" = 10240000
+	#Range: > 1
+	"Basic Lithium Ion Battery" = 3200000
+	#Range: > 1
+	"Advanced Lithium Ion Battery" = 12800000
+	#Range: > 1
+	"DU Lithium Ion Battery" = 51200000
+	#Range: > 1
+	"Elite Lithium Ion Battery" = 204800000
+	#
+	#How much of its capacity a battery can eject, as a percentage.
+	#Range: 1 ~ 100
+	"Battery Ejection Factor" = 2
+

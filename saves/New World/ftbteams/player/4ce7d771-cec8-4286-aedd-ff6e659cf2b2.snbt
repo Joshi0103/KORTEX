@@ -1,0 +1,20 @@
+{
+	id: "4ce7d771-cec8-4286-aedd-ff6e659cf2b2"
+	type: "player"
+	player_name: "byNexotex"
+	ranks: {
+		4ce7d771-cec8-4286-aedd-ff6e659cf2b2: "owner"
+	}
+	properties: {
+		"ftbchunks:allow_explosions": 0b
+		"ftbteams:display_name": "byNexotex"
+		"ftbteams:color": "#E859FF"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}
